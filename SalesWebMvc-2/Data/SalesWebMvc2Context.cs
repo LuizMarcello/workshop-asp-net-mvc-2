@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace SalesWebMvc2.Models
 {
     public class SalesWebMvc2Context : DbContext
@@ -13,6 +14,9 @@ namespace SalesWebMvc2.Models
         {
         }
 
-        public DbSet<SalesWebMvc2.Models.Department> Department { get; set; }
+        public DbSet<Department> Department { get; set; }
+        public DbSet<Seller> Seller { get; set; }
+        public DbSet<SalesRecord> SalesRecord { get; set; }
+        
     }
 }
