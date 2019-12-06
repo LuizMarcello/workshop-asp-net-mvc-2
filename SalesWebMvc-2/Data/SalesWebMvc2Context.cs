@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
+//Mapeamento de acesso ao banco de dados, usando o entity framework:
 
 namespace SalesWebMvc2.Models
 {
